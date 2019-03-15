@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+#list{
+	width:600px;
+	height:514px;
+	border: 2px solid #ccc;
+	float:right;
+}
+#list a.post{
+	display: block;
+	width: 114px;
+	height:33px;
+	background: url("../../images/fb.png")no-repeat;
+    text-indent: -9999px;
+	margin: 10px 0 0 auto;
+}
+#list ul.artical{
+	padding: 10px 50px;
+}
+#list ul.artical li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #333;
+}
+#list ul.artical li em{
+	float: right;
+    font-style: normal;
+}
+#list ul.artical li.a{
+	color: #333;
+}
+#list ul.artical li.a:hover{
+	color: #f60;
+}
+#list ul.artical li{
+	padding:0 0 0 25px;
+}
+#list ul.artical li.icon1{
+	/*background: url("../../images/  ")no-repeat left center;*/
+	padding:0 0 0 25px;
+}
+#user{
+	width:340px;
+	height:250px;
+	border: 2px solid #ccc;
+	float:left;
+	margin:0 0 10px 0;
+	font-size: 12px;
+}
+#user dl{
+	width: 170px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+#user dl dt{
+	width: 170px;
+
+	margin:  0 0 5px 0 ;
+}
+#user dl dt img{
+	margin: 0 auto;
+	display: block;
+}
+#user dl dd{
+	line-height: 20px;
+	text-align: center;
+	height: 20px;
+	width: 75px;
+	float: left;
+
+}
+#user dl dd.email,#user dl dd.url{
+	width: 190px;
+	text-align: left;
+	padding: 2px 0 0 0;
+	text-indent: 5px;
+
+}
+#user dl dd a{
+	text-decoration: none;
+	color: #333;
+}
+
+#user dl dd.user{
+	width: 150px;
+	float: none;
+	color: #f60;
+}
+/*#user dl dd.message{*/
+	/*background: url("../../images/x1.gif")no-repeat 5px 35%;*/
+/*}*/
+/*#user dl dd.friend{*/
+	/*background: url("../../images/x1.gif")no-repeat left 35%;*/
+/*}*/
+/*#user dl dd.guest{*/
+	/*background: url("../../images/x1.gif")no-repeat 5px 35%;*/
+/*}*/
+/*#user dl dd.flower{*/
+	/*background: url("../../images/x1.gif")no-repeat left 35%;*/
+/*}*/
+#pics{
+	width:340px;
+	height:250px;
+	border: 2px solid #ccc;
+	float:left;
+}

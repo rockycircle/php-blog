@@ -1,0 +1,347 @@
+#article{
+    width:auto;
+    min-height: 800px;
+    border: 2px solid #ccc;
+    font-size: 12px;
+}
+
+#article h2{
+    text-indent: 0;
+    text-align:center;
+    padding-top: 5px;
+}
+#article #subject{
+
+}
+#article #subject dl{
+    width: 170px;
+    padding: 10px 0 0 45px;
+    float: left;
+
+}
+#article #subject dl dt{
+    width: 170px;
+
+    margin:  0 0 5px 0 ;
+}
+#article #subject dl dt img{
+    margin: 0 auto;
+    display: block;
+}
+#article #subject dl dd{
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 75px;
+    float: left;
+
+}
+#article #subject dl dd.email{
+    width: 190px;
+    text-align: left;
+    padding: 2px 0 0 0;
+    text-indent: 5px;
+
+}
+#article #subject dl dd.url{
+    width: 190px;
+    text-align: left;
+    padding: 2px 0 0 0;
+    text-indent: 5px;
+
+}
+#article #subject dl dd a{
+    text-decoration: none;
+    color: #333;
+}
+
+#article #subject dl dd.user{
+    width: 150px;
+    float: none;
+    color: #f60;
+}
+/*#article #subject dl dd.message{*/
+    /*background: url("../../images/x1.gif")no-repeat 5px 35%;*/
+/*}*/
+/*#article #subject dl dd.friend{*/
+    /*background: url("../../images/x1.gif")no-repeat left 35%;*/
+/*}*/
+/*#article #subject dl dd.guest{*/
+    /*background: url("../../images/x1.gif")no-repeat 5px 35%;*/
+/*}*/
+/*#article #subject dl dd.flower{*/
+    /*background: url("../../images/x1.gif")no-repeat left 35%;*/
+/*}*/
+#article div.content{
+    width: 680px;
+    float: right;
+    border-bottom: 1px dashed #999;
+
+    padding: 5px 20px 0 0;
+}
+#article div.user {
+    height: 30px;
+    line-height: 30px;
+    background: url("../../images");
+    border-bottom: 1px dashed #999;
+    color: #666;
+    padding: 0 0 0 20px;
+
+}
+#article div.user span{
+    float: right;
+
+    color: #06f;
+}
+#article div.content h3{
+    font-size: 14px;
+    height: 40px;
+}
+#article div.content h3 span{
+    font-size: 12px;
+    font-weight: normal;
+color:#06f;
+}
+#article div.content h3 span a{
+    text-decoration: none;
+    color: #06f;
+}
+#article div.content h3 span a:hover{
+    text-decoration: underline;
+    color: #f60;
+
+}
+#article div.content h3 img{
+    position: relative;
+    top: 2px;
+}
+#article div.content.detail{
+    font-size: 14px;
+    line-height: 200%;
+}
+#article div.content.detail a{
+    text-decoration: none;
+    color: blue;
+}
+#article div.content.detail a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+#article div.detail p.antograph{
+    color: #666;
+    border-top:1px dashed #666;
+    margin: 20px 0;
+
+
+}
+#article div.content.read{
+    font-size: 14px;
+    color: #666;
+}
+#article div.read p{
+   padding: 10px 0 10px 0;
+    text-align: right;
+
+}
+#article p.line{
+    width: 95%;
+    margin: 10px auto 0 auto;
+    clear: both;
+    height: 10px;
+    border-bottom: 1px dashed #333;
+
+}
+
+#article dl{
+    width:450px;
+    margin: 10px auto;
+    position: relative;
+}
+#article dl dt{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+#article dl dd{
+    padding:5px 0;
+}
+#article dl dd label{
+    cursor: pointer;
+    display: inline-block;
+    height: 2px;
+    padding: 0 2px 0 0;
+}
+
+
+
+#article dl dd div#ubb{
+    width: 408px;
+    height: 26px;
+    border:1px dashed #333;
+    background: #eee;
+    border-bottom: 1px dashed #666;
+    margin:0 auto;
+
+}
+#article dl dd div#ubb img{
+    display: block;
+    float: left;
+    padding: 5px 0 0 6px;
+
+}
+#article dl dd div#font{
+    display: none;
+    width:125px;
+    height: 40px;
+    background:#eee;
+    border: 1px dashed #333;
+    padding: 8px;
+    line-height: 20px;
+    position: absolute;
+    top: 92px;
+    left: 20px;
+}
+#article dl dd div#font strong{
+    font-weight: normal;
+    background: #fff;
+    border: 1px dashed #ccc;
+    cursor: default;
+
+}
+#article dl dd div#color{
+    display: none;
+    width: 152px;
+    height: 130px;
+    font-size: 12px;
+    background: #eee;
+    border: 1px dashed #333;
+    padding: 4px 0 0 4px;
+    position: absolute;
+    top:92px;
+    left: 20px;
+}
+#article dl dd div#color strong{
+    border: 1px solid #999;
+    display: block;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+#article dl dd div#color em{
+    display: block;
+    width: 28px;
+    height: 80%;
+    clear: both;
+}
+#article dl dd div#color em input{
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 136px;
+    height: 20px;
+    cursor: pointer;
+    background: #fff;
+
+}
+
+#article dl dd textarea{
+    width: 410px;
+    height: 200px;
+    border:1px dashed #333;
+    background: #fff;
+    margin:0 auto;
+
+}
+#article dl dd input.text{
+    width:250px;
+    height: 19px;
+    border:1px dashed #333;
+    background: #fff;
+}
+#article dl dd input.yzm{
+    width:60px;
+}
+#article dl dd input.submit{
+    width:75px;
+    height:21px;
+    border: 1px dashed #333;
+    background: #fff;
+    cursor: pointer;
+    color: #333;
+
+}
+#article dl dd input.submit:hover{
+
+    background: #eee;
+
+
+}
+#article dl dd img#code{
+    position: relative;
+    top:8px;
+    cursor: pointer;
+}
+#article dl dd#q a{
+    text-decoration: none;
+    color: #333;
+
+}
+#article  div.re dl{
+    width: 170px;
+    padding: 10px 0 0 45px;
+    float: left;
+
+}
+#article div.re dl dt{
+    width: 170px;
+
+    margin:  0 0 5px 0 ;
+}
+#article div.re dl dt img{
+    margin: 0 auto;
+    display: block;
+}
+#article div.re dl dd{
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 75px;
+    float: left;
+
+}
+#article div.re dl dd.email{
+    width: 190px;
+    text-align: left;
+    padding: 2px 0 0 0;
+    text-indent: 5px;
+
+}
+#article div.re dl dd.url{
+    width: 190px;
+    text-align: left;
+    padding: 2px 0 0 0;
+    text-indent: 5px;
+
+}
+#article div.re dl dd a{
+    text-decoration: none;
+    color: #333;
+}
+
+#article div.re dl dd.user{
+    width: 150px;
+    float: none;
+    color: #f60;
+}
+/*#article div.re dl dd.message{*/
+    /*background: url("../../images/x1.gif")no-repeat 5px 35%;*/
+/*}*/
+/*#article div.re dl dd.friend{*/
+    /*background: url("../../images/x1.gif")no-repeat left 35%;*/
+/*}*/
+/*#article div.re dl dd.guest{*/
+    /*background: url("../../images/x1.gif")no-repeat 5px 35%;*/
+/*}*/
+/*#article div.re dl dd.flower{*/
+    /*background: url("../../images/x1.gif")no-repeat left 35%;*/
+/*}*/
